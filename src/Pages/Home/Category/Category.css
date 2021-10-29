@@ -1,0 +1,40 @@
+
+.allinfo{
+    display: flex;
+}
+.place-info{
+    text-align: left;
+    margin-left: 20px;
+}
+.place-info h4{
+    text-align: left;
+}
+@media (max-width: 480px){
+    .allinfo{
+        display: block;
+    }
+    img{
+        width: 230px;
+        height: 200px;
+    }
+    .head{
+        font-size: 16px;
+        
+    }
+    .subhead{
+        font-size: 10px;
+       
+    }
+    .desc{
+        font-size: 8px;
+        
+    }
+    .place-info{
+        margin-left: 0px;
+        padding: 5px;
+    }
+    .world{
+        font-size: 20px;
+    }
+
+}

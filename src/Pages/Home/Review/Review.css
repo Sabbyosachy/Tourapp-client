@@ -1,0 +1,17 @@
+p{
+    text-align: justify;
+}
+.btn_regu{
+    padding: 5px 15px;
+    background-color: orangered;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.icons{
+    text-align: center;
+   color: gold;
+    font-size: 20px;
+}

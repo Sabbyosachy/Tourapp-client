@@ -4,7 +4,7 @@ import './Category.css';
 const Category = () => {
     return (
         <div className="py-5 pt-5 container">
-            <h2 className="fw-bold text-warning world">World's Best Places to Visit</h2>     
+            <h2 className="fw-bold text-warning world py-5">World's Best Places to Visit</h2>     
             <div className="allinfo py-5 shadow p-5">
                 <div className="place_img">
                    <img src="https://travel.usnews.com/dims4/USNEWS/a798492/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/edited_south_island_nz_getty_irma_ferreira_445x280_dxgXWlc.jpg" alt="" srcset="" /> 

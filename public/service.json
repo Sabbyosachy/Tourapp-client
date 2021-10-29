@@ -1,61 +1,58 @@
 [
     {
       "id": "1",
-      "coursetitle": "Java",
-      "subtitle": "High-level programming language",
-      "image": "https://2.imimg.com/data2/WE/TT/MY-/6-500x500.jpg",
-      "duration": "3 Monthes",
-      "fee": "$200",
-      "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."
+      "name": "Adventure Tourism Package",
+      "image": "https://miro.medium.com/max/640/1*leYUv69vnV9phJvXisY_Pg.png",
+      "time": "7 Days Package",
+      "cost": "$2000",
+      "description": "Adventure tourism, in general, is defined as the type of tourism that encourages an individual to come out of his/her comfort zone by engaging in thrilling physical, natural or cultural activities."
     },
     {
       "id": "2",
-      "coursetitle": "Kotlin",
-      "subtitle": "Programming language",
-      "image": "https://phauer.com/blog/2016/1120-kotlin-java-ecosystem-language/featured-image-large.png",
-      "duration": "3 Monthes",
-      "fee": "$300",
-      "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.Kotlin is designed to interoperate fully with Java."
+      "name": "Cultural Tourism Package",
+      "image": "https://miro.medium.com/max/640/1*hKcjUmK16aVPv1mY41B8fA.png",
+      "time": "3 Days Package",
+      "cost": "$1000",
+      "description": "The social richness of the country draws the visitors from every corner of the world to witness sheer celebrations. Grand monuments delineating structural brightness  apart from the rest of the world."
 
     },
     {
       "id": "3",
-      "coursetitle": "C++",
-      "subtitle": "Programming language",
-      "image": "https://theindianwire.com/wp-content/uploads/2018/06/CBuilder-logo.png",
-      "duration": "2 Monthes",
-      "fee": "$100",
-      "description": "C++ is high-level often abbreviated a general-purpose programming language created by Bjarne Stroustrup as an extension emphasizes code of the C programming language."
+      "name": "Cruise Tourism Package",
+
+      "image": "https://miro.medium.com/max/640/1*9NerOGVzhBI_V2RKpmy14A.png",
+      "time": "7 Days Package",
+      "cost": "$2000",
+      "description": "Cruise tourism permits tourists to explore beautiful riverside villages, undisturbed sacred islands and sights that will captivate and intrigue dynamically growing sector of the tourism their senses."
 
     },
     {
       "id": "4",
-      "coursetitle": "Python",
-      "subtitle": "High-level programming language",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcl2CrZkD1Nt5_cPrMlTV4CxjbmGIeQsl6bCPOaRNWkRRuWjDSZPiXAlCLlIGMz-fS6Vk&usqp=CAU",
-      "duration": "1 Monthes",
-      "fee": "$200",
-      "description": "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability indentation."
+      "name": "Family Tourism Package",
+
+      "image": "https://miro.medium.com/max/640/1*k56GGXZPJai5HgJnXKo-FQ.png",
+      "time": "4 Days Package",
+      "cost": "$1200",
+      "description": "The family tourism in India offers all kind of activities like visiting the cultural destinations, a cruise ride, enjoying the scenic beauty of eco tourism places, experiencing the wildlife and tourism."
 
     },
     {
       "id": "5",
-      "coursetitle": "React",
-      "subtitle": "JavaScript library",
-      "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1513321478077/ByCWNxZMf.png",
-      "duration": "1 Monthes",
-      "fee": "$250",
-      "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community."
+      "name": "Honeymoon Tourism Package",
+
+      "image": "https://miro.medium.com/max/640/1*SgS_dNMQ1BaYpIUYStDIdw.png",
+      "time": "3 Days Package",
+      "cost": "$1000",
+      "description": "Everyone couple dreams about escaping from the rest of the world to have a romantic vacation with their partner. Honeymoon is a once in a lifetime oppo good start to a lovely and romantic married life."
 
     },
     {
       "id": "6",
-      "coursetitle": "JavaScript",
-      "subtitle": "Programming language",
-      "image": "https://scand.com/wp-content/uploads/2021/04/JavaScript.jpg",
-      "duration": "3 Monthes",
-      "fee": "$150",
-      "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level."
+      "name": "Wildlife Tourism Package",
+      "image": "https://miro.medium.com/max/640/1*KwAgJnDW-vDB2aF3uLwXvg.png",
+      "time": "5 Days Package",
+      "cost": "$1500",
+      "description": "India,Africa has a rich and diverse wildlife. From the mammoth mountain ranges in the north to the tip of Kanyakumari in the south, India is the home of a large number of wildlife parks and sanctuaries."
 
     }
 ]

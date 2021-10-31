@@ -4,14 +4,20 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import Header from './Pages/Home/Header/Header';
 import Footer from './Pages/Home/Footer/Footer';
-import Join from './Pages/Member/Join/Join';
 import Notfound from './Pages/Notfound/Notfound';
+import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
+import Login from './Pages/Login/Login';
+import Service from './Pages/Home/Service/Service';
+import ManageOrders from './Pages/ManageOrders/ManageOrders';
+
 
 
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
       <Header/>
         <Switch>
@@ -21,8 +27,14 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-         <Route exact path="/join">
-           <Join></Join>
+          <PrivateRoute exact path="/services/:serviceId">
+         <Service></Service>
+          </PrivateRoute>
+         <Route exact path="/login">
+           <Login></Login>
+         </Route>
+         <Route exact path="/manageorders">
+          <ManageOrders></ManageOrders>
          </Route>
          <Route exact path="*">
            <Notfound></Notfound>
@@ -30,6 +42,7 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

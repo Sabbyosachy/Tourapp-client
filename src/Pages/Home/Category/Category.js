@@ -4,7 +4,7 @@ import './Category.css';
 const Category = () => {
     return (
         <div className="py-5 pt-5 container">
-            <h2 className="fw-bold text-warning world py-5">World's Best Places to Visit</h2>     
+            <h2  className="fw-bold text-warning world py-5">World's Best Places to Visit</h2>     
             <div className="allinfo py-5 shadow p-5">
                 <div className="place_img">
                    <img src="https://travel.usnews.com/dims4/USNEWS/a798492/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/edited_south_island_nz_getty_irma_ferreira_445x280_dxgXWlc.jpg" alt="" srcset="" /> 
@@ -101,7 +101,7 @@ const Category = () => {
                 </div>
                 <div className="place-info">
                     <h4 className="head">Glacier National Park</h4>
-                    <h6 className="subhead" className="subhead">10 in World's Best Places to Visit</h6>
+                    <h6 className="subhead">10 in World's Best Places to Visit</h6>
                     <p className="desc">Snow-capped peaks and azure lakes are just two reasons why Glacier National Park is one of America's most striking parks. There are more than 700 miles of hiking trails in this Montana park, plus 13 designated areas for camping. In winter, travelers can enjoy snowshoeing and skiing, while summer is when vacationers can go swimming and whitewater rafting, among other popular activities. For those who'd rather admire their surroundings from their car, a scenic drive along Going-to-the-Sun Road can't be missed.</p>
                 </div>
             </div>

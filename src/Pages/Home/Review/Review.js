@@ -5,7 +5,7 @@ import './Review.css';
 const Review = () => {
     return (
         <div className="container py-5">
-           <h2 className="fw-bold text-warning">Clients Reviews</h2>
+           <h2 id="reviews" className="fw-bold text-warning">Clients Reviews</h2>
            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
   <div class="col px-4">
     <div class="card shadow">

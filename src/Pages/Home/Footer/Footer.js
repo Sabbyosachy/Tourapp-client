@@ -12,13 +12,13 @@ const Footer = () => {
                   <h1 className="head">Take A Tour</h1>
                   <div className="icons-container d-flex">
                     <div className="icon">
-                    <i class="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                     </div>
                     <div className="icon">
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                     </div>
                     <div className="icon">
-                    <i class="fab fa-twitter-square"></i>
+                    <i className="fab fa-twitter-square"></i>
                     </div>
                   </div>
                   <p className="mt-3 ">Here You can find the best travel package and ideas..</p>
@@ -29,18 +29,18 @@ const Footer = () => {
                 <div className="menu-container">
                 
                     <p className="menu">Home</p>
-                    <p className="menu">Service</p>
-                    <p className="menu"> About Us</p>
-                    <p className="menu">Contact</p>
+                    <p className="menu">Services</p>
+                    <p className="menu">Review</p>
+                    <p className="menu">Login</p>
                     
                 </div>
               </div>
               <div className="col-md-5 col-12">
                 <div className="text-start iteams">
-                <p><i class="fas fa-map-marker-alt"></i>  New York, NV-1234 US</p>
-               <p> <i class="fas fa-envelope"></i>  takeatour@gmail.com</p>
-                <p><i class="fas fa-phone-square-alt"></i>  +01 980 778 16</p>
-                <p><i class="fas fa-phone-square-alt"></i>  + 01 145 908 23</p>
+                <p><i className="fas fa-map-marker-alt"></i>  New York, NV-1234 US</p>
+               <p> <i className="fas fa-envelope"></i>  takeatour@gmail.com</p>
+                <p><i className="fas fa-phone-square-alt"></i>  +01 980 778 16</p>
+                <p><i className="fas fa-phone-square-alt"></i>  + 01 145 908 23</p>
                            
                 </div>
               </div>

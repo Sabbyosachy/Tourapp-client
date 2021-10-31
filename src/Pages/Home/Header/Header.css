@@ -4,7 +4,7 @@
     font-weight: 500;
     font-size: 16px;
     color:white;
-    padding: 7px 17px;
+    padding: 7px 15px;
     transition: 0.5s;
 }
 .navs1{
@@ -14,7 +14,7 @@
     font-size: 16px;
     background-color: white;
     color: black;
-    padding: 7px 17px;
+    padding: 7px 15px;
 }
 .navs:hover{
     background-color: white;
@@ -30,4 +30,7 @@
 .fas{
     color: white;
     font-size: 45px;
+}
+.nam a{
+    text-decoration: none;
 }

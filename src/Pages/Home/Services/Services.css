@@ -1,17 +1,31 @@
-.service-container{
+.show__item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    padding: 40px;
 }
-
+/* services container style */  
+  .title{
+      text-align: center;
+  }
+  .service {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.336);
+    padding: 20px;
+  }
+  .service img {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+  
 /* Make it responsive */
 @media only screen and (max-width:688px) {
-    .service-container{
+    .show__item{
         grid-template-columns: repeat(1, 1fr);
     }
 }
 @media only screen and (min-width:689px) and (max-width: 991px){
-    .service-container{
+    .show__item{
         grid-template-columns: repeat(2, 1fr);
     }
 }

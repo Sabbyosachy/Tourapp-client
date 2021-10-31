@@ -23,7 +23,7 @@ const AddNewService = () => {
       <input type="text" {...register("name")} placeholder="name" required />   
       <input type="text" {...register("description")} placeholder="description"  required/>   
       <input type="number" {...register("cost")} placeholder="cost" required />   
-      <input type="text" {...register("time")} placeholder="time" required />   
+      <input type="text" {...register("time")} placeholder="Package" required />   
       <input type="url" {...register("image")} placeholder="image-url" required />   
       <input className="btn_regu" type="submit"  /> 
     </form>

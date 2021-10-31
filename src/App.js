@@ -10,6 +10,8 @@ import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
 import Login from './Pages/Login/Login';
 import Service from './Pages/Home/Service/Service';
 import ManageOrders from './Pages/ManageOrders/ManageOrders';
+import MyOrders from './Pages/MyOrders/MyOrders';
+import AddNewService from './Pages/AddNewService/AddNewService';
 
 
 
@@ -33,8 +35,14 @@ function App() {
          <Route exact path="/login">
            <Login></Login>
          </Route>
+         <Route exact path="/myorders">
+          <MyOrders></MyOrders>
+         </Route>
          <Route exact path="/manageorders">
           <ManageOrders></ManageOrders>
+         </Route>
+         <Route exact path="/addnewservice">
+          <AddNewService></AddNewService>
          </Route>
          <Route exact path="*">
            <Notfound></Notfound>

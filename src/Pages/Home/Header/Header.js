@@ -17,12 +17,20 @@ const Header = () => {
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ms-auto">
         <NavLink className="navs1" to="/home">Home</NavLink>
-        <HashLink className="navs" to="/home#services">Services</HashLink>
-        <HashLink className="navs" to="/home#reviews">Reviews</HashLink>
+        <HashLink className="navs" to="/home#services">Place Order</HashLink>
+
+        {
+          user?.email ?
+          <NavLink className="navs" to="/myorders">My Orders</NavLink>:''
+          }
 
         {
           user?.email ?
           <NavLink className="navs" to="/manageorders">Manage Orders</NavLink>:''
+          }
+        {
+          user?.email ?
+          <NavLink className="navs" to="/addnewservice">Add Service</NavLink>:''
           }
        
         {

@@ -5,7 +5,7 @@ import './Services.css';
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('./Service.JSON')
+        fetch('http://localhost:5000/tours')
             .then(response => response.json())
             .then(data => setServices(data));
     }, [])
@@ -17,7 +17,7 @@ const Services = () => {
             <div className="show__item">
                 {
                     services.map(service=>
-                        <div className="service" key={service.id}>
+                        <div className="service" key={service._id}>
                             <div>
                             <img src={service.image} alt="" />
                             </div>
@@ -27,7 +27,7 @@ const Services = () => {
                                 <h6>Package: {service.time}</h6>
                                 <h6>Total Cost: {service.cost}</h6>
                                 <br />
-                                <Link to ={`services/${service.id}`}>
+                                <Link to ={`services/${service._id}`}>
                                     <button className="btn_regu">Book Now</button>
                                 </Link>
                             </div>

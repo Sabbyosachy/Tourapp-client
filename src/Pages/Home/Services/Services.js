@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <div className="services" id="services">
             
-            <h2 className="fw-bold text-warning">All Services</h2>
+            <h2 className="fw-bold text-warning">Book For A Trip</h2>
             {/* show all services */}
             <div className="show__item">
                 {

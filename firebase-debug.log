@@ -1,13 +1,13 @@
-[debug] [2021-11-01T06:44:18.426Z] ----------------------------------------------------------------------
-[debug] [2021-11-01T06:44:18.428Z] Command:       D:\node.exe C:\Users\SUSAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-11-01T06:44:18.428Z] CLI Version:   9.21.0
-[debug] [2021-11-01T06:44:18.428Z] Platform:      win32
-[debug] [2021-11-01T06:44:18.428Z] Node Version:  v14.17.1
-[debug] [2021-11-01T06:44:18.429Z] Time:          Mon Nov 01 2021 12:44:18 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-01T06:44:18.429Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:01:47.088Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:01:47.090Z] Command:       D:\node.exe C:\Users\SUSAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-01T07:01:47.090Z] CLI Version:   9.21.0
+[debug] [2021-11-01T07:01:47.091Z] Platform:      win32
+[debug] [2021-11-01T07:01:47.091Z] Node Version:  v14.17.1
+[debug] [2021-11-01T07:01:47.091Z] Time:          Mon Nov 01 2021 13:01:47 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-01T07:01:47.092Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-01T06:44:18.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-01T06:44:18.484Z] > authorizing via signed-in user (sabbyosachychakraborty@gmail.com)
+[debug] [2021-11-01T07:01:47.148Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-01T07:01:47.148Z] > authorizing via signed-in user (sabbyosachychakraborty@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,9 +30,9 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2021-11-01T06:44:30.830Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b [none]
-[debug] [2021-11-01T06:44:31.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b 200
-[debug] [2021-11-01T06:44:31.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b {"projectId":"gaithersburg-f828b","projectNumber":"128794803688","displayName":"Gaithersburg","name":"projects/gaithersburg-f828b","resources":{"hostingSite":"gaithersburg-f828b"},"state":"ACTIVE"}
+[debug] [2021-11-01T07:02:05.701Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b [none]
+[debug] [2021-11-01T07:02:06.613Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b 200
+[debug] [2021-11-01T07:02:06.613Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gaithersburg-f828b {"projectId":"gaithersburg-f828b","projectNumber":"128794803688","displayName":"Gaithersburg","name":"projects/gaithersburg-f828b","resources":{"hostingSite":"gaithersburg-f828b"},"state":"ACTIVE"}
 [info] i  Using project gaithersburg-f828b (Gaithersburg) 
 [info] 
 === Hosting Setup

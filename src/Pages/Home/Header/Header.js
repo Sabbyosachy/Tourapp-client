@@ -5,9 +5,11 @@ import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 import useAuth from '../../../hooks/useAuth';
 
+//Hader added
 const Header = () => {
   const {user,logOut}=useAuth();
  
+  //Diffrent route set
     return (
         <div>
 <Navbar fixed="top" bg="dark" expand="lg">
@@ -18,6 +20,8 @@ const Header = () => {
       <Nav className="ms-auto">
         <NavLink className="navs1" to="/home">Home</NavLink>
         <HashLink className="navs" to="/home#services">Place Order</HashLink>
+        
+        {/* Dynamically Route set when user login enable four more route  */}
 
         {
           user?.email ?

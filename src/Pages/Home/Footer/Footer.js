@@ -1,7 +1,9 @@
 import React from 'react';
 import './Footer.css';
 
+//Footer added 
 const Footer = () => {
+  //Right section Middle and left section have
     return (
         <div className="footer">
         <div className="footer-container">
@@ -21,18 +23,18 @@ const Footer = () => {
                     <i className="fab fa-twitter-square"></i>
                     </div>
                   </div>
-                  <p className="mt-3 ">Here You can find the best travel package and ideas..</p>
-                  <p className="mt-1">Copywrite © 2021 take a tour</p>
+                  <p className="mt-3 texts ">Here You can find the best travel package and ideas..</p>
+                  <p className="mt-1 texts">Copywrite © 2021 take a tour</p>
                 </div>
               </div>
+              
               <div className="col-md-2 col-12">
                 <div className="menu-container">
-                
+              
                     <p className="menu">Home</p>
                     <p className="menu">Services</p>
                     <p className="menu">Review</p>
                     <p className="menu">Login</p>
-                    
                 </div>
               </div>
               <div className="col-md-5 col-12">

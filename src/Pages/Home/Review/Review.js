@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faStar } from '@fortawesome/free-solid-svg-icons'
 import './Review.css';
 const Review = () => {
+  //Reviews sections with three customer reviews
     return (
         <div className="container py-5">
            <h2 id="reviews" className="fw-bold text-warning">Clients Reviews</h2>
            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
   <div class="col px-4">
-    <div class="card shadow">
+    <div class="card person shadow">
       <img className="p-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwDWGu8qH-aQvDAfZ4uhge-ErwppDzWFvaQ&usqp=CAU" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h3 class="card-title">Jhon Kibriyan</h3>
@@ -19,7 +20,7 @@ const Review = () => {
     </div>
   </div>
   <div class="col px-4">
-    <div class="card shadow">
+    <div class="card person shadow">
       <img className="p-3" src="https://www.clydeco.com/getattachment/ffb01c93-0273-4da8-9350-8b4b1d5de05b/personimage?variant=PersonThumbnailVariant" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h3 class="card-title">Young Huns</h3>
@@ -30,7 +31,7 @@ const Review = () => {
     </div>
   </div>
   <div class="col px-4">
-    <div class="card shadow">
+    <div class="card person shadow">
       <img className="p-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMxsAuITWTZyiEkObofkuxxSwKTsn5KSh6cQ&usqp=CAU" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h3 class="card-title">Hazards Mark</h3>

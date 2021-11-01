@@ -3,6 +3,8 @@ import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 import "./Login.css";
 
+//Handle lowin from google and manually  
+
 const Login = () => {
     const {handleSubmit, isLogin,setIsLoading, handleEmailChange, handlePasswordChange, handleNameChange, checkedIsLogin, signInUsingGoogle, handleResetPass, error, setUser} = useAuth();
     const location = useLocation();

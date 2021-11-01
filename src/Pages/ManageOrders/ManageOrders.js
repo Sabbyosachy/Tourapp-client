@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './ManageOrders.css';
 
+//Fetch api to show all orders for all user
 const ManageOrders = () => {
     const [order, setOrder] = useState([]);
     const [orders, setOrders] = useState([]);
@@ -9,6 +10,7 @@ const ManageOrders = () => {
             .then(response => response.json())
             .then(data => setOrder(data));
     }, [])
+    //Delete order from user 
     const handleDelete = (id) => {
         const sure = window.confirm("Do you want to delete this plan? ");
         if (sure) {
@@ -28,6 +30,7 @@ const ManageOrders = () => {
             });
         }
       };
+      //For order person info
     return (
         <div className="py-5 pt-5">
             <h3 className="py-5 fw-bold text-warning">Manage All Orders</h3>
@@ -39,6 +42,7 @@ const ManageOrders = () => {
                                 <h6 className="ordersinfo" >Email: {service.email}</h6>
                                 <h6 className="ordersinfo" >Package: {service.time}</h6>
                                 <h6 className="ordersinfo" >Address: {service.address}</h6>
+                                <h6 className="ordersinfo" >Phone: {service.phone}</h6>
                                 <h6 className="ordersinfo" >Total cost: {service.cost}</h6>
                                 <br />
                                 <button onClick={() => handleDelete(service._id)} className="btn_regu">Delete</button>

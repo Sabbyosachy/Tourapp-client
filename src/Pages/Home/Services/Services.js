@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Services.css';
 
+//Load api to show all tours to book 
+
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
@@ -9,6 +11,8 @@ const Services = () => {
             .then(response => response.json())
             .then(data => setServices(data));
     }, [])
+    
+    //All detail show about the tours 
     return (
         <div className="services" id="services">
             

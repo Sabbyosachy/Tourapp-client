@@ -1,6 +1,8 @@
 import React from 'react';
 import './Category.css';
 
+//Top ten category added for tour
+
 const Category = () => {
     return (
         <div className="py-5 pt-5 container">

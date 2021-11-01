@@ -5,6 +5,7 @@ import Review from '../Review/Review';
 import Services from '../Services/Services';
 
 const Home = () => {
+    //Added home section are four 
     return (
         <div>
             <Banner></Banner>

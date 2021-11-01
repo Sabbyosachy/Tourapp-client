@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 import './MyOrders.css';
+
+//Show the user all oder he did 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const { user } = useAuth();
@@ -12,6 +14,7 @@ const MyOrders = () => {
         .then(response => response.json())
         .then(data => setOrders(data));
 }, [])
+//Handle order delete
 const handleDelete = (id) => {
   const sure = window.confirm("Do you want to delete this plan? ");
   if (sure) {
@@ -31,6 +34,7 @@ const handleDelete = (id) => {
       });
   }
 };
+//For oder person info 
     return (
       
         <div className="pt-5 py-5">
@@ -44,6 +48,7 @@ const handleDelete = (id) => {
                     <h6 className="ordersinfo" >Email: {service.email}</h6>
                     <h6 className="ordersinfo" >Package: {service.time}</h6>
                     <h6 className="ordersinfo" >Address: {service.address}</h6>
+                    <h6 className="ordersinfo" >Phone: {service.phone}</h6>
                     <h6 className="ordersinfo" >Total cost: {service.cost}</h6>
                     <br />
                    <button onClick={() => handleDelete(service._id)} className="btn_regu">Delete</button>

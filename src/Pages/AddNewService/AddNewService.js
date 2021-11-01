@@ -3,6 +3,7 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import './AddNewService.css';
 
+//use server api to fetch data and added new service
 const AddNewService = () => {
     const { register, handleSubmit,reset} = useForm();
     const onSubmit = data => {
@@ -15,7 +16,7 @@ const AddNewService = () => {
             }
         })
     }
-   
+   //react hook form
     return (
         <div className="py-5 pt-5 addproduct">
             <h3 className="pt-5 fw-bold text-warning">App New Services</h3>

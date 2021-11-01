@@ -2,6 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css';
 
+//Banner added with some description
+
 const Banner = () => {
     return (
         <div className="py-5">

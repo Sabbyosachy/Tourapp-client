@@ -5,14 +5,14 @@ const ManageOrders = () => {
     const [order, setOrder] = useState([]);
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://macabre-zombie-68363.herokuapp.com/orders')
             .then(response => response.json())
             .then(data => setOrder(data));
     }, [])
     const handleDelete = (id) => {
         const sure = window.confirm("Do you want to delete this plan? ");
         if (sure) {
-          fetch(`http://localhost:5000/deleteorder/${id}`, {
+          fetch(`https://macabre-zombie-68363.herokuapp.com/deleteorder/${id}`, {
             method: "DELETE",
             headers: {
               "content-type": "application/json",

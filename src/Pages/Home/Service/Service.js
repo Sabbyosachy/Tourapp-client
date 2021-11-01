@@ -12,7 +12,7 @@ const Service = () => {
     const { register, handleSubmit,reset} = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/orders',data)
+        axios.post('https://macabre-zombie-68363.herokuapp.com/orders',data)
         .then(res=>{
             if(res.data.insertedId){
                 alert('Purches SuccessFully')
@@ -24,7 +24,7 @@ const Service = () => {
    
     // load service data
     useEffect(()=>{
-        fetch(`http://localhost:5000/tours/${serviceId}`)
+        fetch(`https://macabre-zombie-68363.herokuapp.com/tours/${serviceId}`)
         .then(res=> res.json())
         .then(data=>setService(data));
     },[])

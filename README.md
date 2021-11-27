@@ -4,6 +4,12 @@ Please Visit My Site [Take A Tour](https://gallant-bell-b642f5.netlify.app).
 
 Hello,Everyone welcome to Take A Tour site here are different type of services are available for all ages and all genders here you can make a trip to going somewhere and visited any places . We offering some packages in this tour,For more details connect with us.
 
+•	This is a Trip booking website .
+
+•	 If a user wants to order any product he/she has to login.
+
+•	After login enable more options. User can order and cancel order. 
+
 •	This project Use To Make React, React Router, React Bootstrap,MongoDB,Node Express,Node Mongodb.
 
 •	Here use caurosel login/create account and logout option.
